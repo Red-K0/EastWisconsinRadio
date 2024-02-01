@@ -22,12 +22,21 @@ body::after {
 }
 
 h1 {
-	padding-left: 15vw;
+  padding-left: 15vw;
 	padding-right: 15vw;
 }
 
+h2 {
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
 p {
-	padding-left: 15vw;
+  font-size: 16px;
+  padding-left: 15vw;
 	padding-right: 15vw;
 }
 
@@ -41,9 +50,4 @@ p {
 
 .rightalign {
   text-align: right;
-}
-
-.bodytext {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
 }
