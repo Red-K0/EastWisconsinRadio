@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body::after {
+    content: "";
+	z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 15vw;
+    width: 70vw;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+}
+
+h1 {
+	padding-left: 15vw;
+	padding-right: 15vw;
+}
+
+p {
+	padding-left: 15vw;
+	padding-right: 15vw;
+}
+
+.title {
+  width: 40vw
+}
+
+.subtitle {
+  width: 50vw
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.bodytext {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
