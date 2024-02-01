@@ -18,6 +18,7 @@ body::after {
     left: 15vw;
     width: 70vw;
     height: 100vh;
+    padding:0%;
     background-color: rgb(240, 240, 240);
 }
 
